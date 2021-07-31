@@ -1,0 +1,48 @@
+.header__logo a img {
+  width: 130%;
+  margin-top: 20px;
+}
+.header__about a {
+  width: 230px;
+  height: 75px;
+  font-size: 3.4rem;
+}
+.perfil {
+  margin: 0;
+}
+.perfil__text h2 {
+  font-size: 4.4rem;
+}
+.perfil__text p {
+  font-size: 3.4rem;
+}
+.proyectos h3 {
+  font-size: 5.4rem;
+}
+.proyectos__articulos h2 {
+  font-size: 4.2rem;
+}
+.proyectos__articulos p {
+  margin-top: 20px;
+  font-size: 3.4rem;
+}
+.blogpost__contact {
+  height: 250px;
+}
+.blogpost__contact-img img {
+  width: 200px;
+}
+.blogpost__contact-img-txt a {
+  margin: 10px auto;
+  width: 150px;
+  height: 50px;
+}
+.blogpost__contact-img-txt P {
+  font-size: 2.4rem;
+}
+footer {
+  height: 60px;
+}
+footer h2 {
+  font-size: 3rem;
+}

@@ -1,0 +1,12 @@
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: $color-oscuro;
+  border: 5px solid $color-primario;
+  margin-top: 10px;
+  text-align: center;
+  & h2 {
+    @include tituloSecundario;
+    color: $color-claro;
+  }
+}

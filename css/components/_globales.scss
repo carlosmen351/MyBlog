@@ -1,0 +1,83 @@
+$color-primario: #6aafdf;
+$color-secundario:#013438;
+$color-terciario: #1b2c4c;
+$color-oscuro: #2a2a2a;
+$color-claro: #f7f7f7;
+$fuente1: 'Inconsolata', monospace;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: $fuente1;
+  }
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+img {
+  border-radius: 25px;
+}
+
+@mixin parrafo {
+  font-size: 1.6rem;
+  margin-bottom: 35px;
+  text-align: justify;
+  font-family: $fuente1;
+}
+
+@mixin boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: $color-primario;
+  color: $color-oscuro;
+  box-shadow: 1px 3px 1px 1px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  }
+
+@mixin hover {
+  background-color: $color-oscuro;
+  color: $color-claro;
+  box-shadow: none;
+}
+@mixin boton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: $color-claro;
+  border-color: $color-oscuro;
+  color: $color-oscuro;
+  box-shadow: 1px 3px 3px 3px $color-primario;
+  font-size: 2.2rem;
+  font-weight: 500;
+  }
+  @mixin hover2 {
+    background-color: $color-oscuro;
+    color: $color-primario;
+    box-shadow: none
+  }
+
+@mixin tituloPrincipal {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.6rem;
+  border-bottom: 2px solid $color-primario;
+}
+
+@mixin tituloSecundario {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+}

@@ -1,0 +1,95 @@
+
+.header {
+  height: 23vh;
+}
+.header__icons a img {
+  width: 65px;
+}
+.header__about a {
+  width: 200px;
+  height: 50px;
+  font-size: 2.8rem;
+}
+.main {
+  height: 77vh;
+}
+.main .main__titulo {
+  padding-top: 20%;
+}
+.main .main__titulo h1 {
+  font-size: 5.8rem;
+}
+.main .main__titulo-boton {
+  padding-top: 60px;
+}
+.main .main__titulo-boton a {
+  width: 200px;
+  height: 80px;
+  font-size: 2.8rem;
+}
+/* Fin del Home */
+.blogs__container-new-img img {
+  height: 600px;
+  max-width: 900px;
+}
+.blogs__container-post-img img {
+  height: 600px;
+  max-width: 900px;
+}
+.blogs__container-new h3 {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+.blogs__container-text h2 {
+  font-size: 4rem;
+}
+.blogs__container-text p {
+  font-size: 2.8rem;
+}
+.blogs__container-text a {
+  width: 200px;
+  height: 80px;
+  font-size: 2.8rem;
+}
+.blogs__container-post h3 {
+  font-size: 5.2rem;
+}
+/* fin de blogs */
+.blogpost h3 {
+  font-size: 4.5rem;
+}
+.blogpost__img {
+  display: flex;
+  justify-content: center;
+}
+.blogpost__img img {
+  max-width: 900px;
+  height: 600px;
+}
+.blogpost__text h2 {
+  font-size: 5rem;
+}
+.blogpost__text p {
+  font-size: 2.8rem;
+}
+/* Fin de Blog */
+.perfil {
+  margin-top: 30px;
+}
+.perfil__imagen {
+  width: 360px;
+}
+.perfil__imagen img {
+  height: 490px;
+  max-width: 900px;
+}
+.proyectos h3 {
+  font-size: 3.4rem;
+}
+.proyectos__articulos article {
+  text-align: center;
+}
+.proyectos__articulos img {
+  max-width: 900px;
+  height: 600px;
+}

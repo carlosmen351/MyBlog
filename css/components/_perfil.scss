@@ -1,0 +1,48 @@
+.profilePage {
+  display: inline-block;
+}
+.perfil {
+  padding: 10px;
+  background-color: $color-primario;
+  height: 100%;
+  &__imagen {
+    width: 200px;
+    margin: 0 auto;
+    & img {
+    width: 100%;
+    height: 290px;
+    border-radius: 25px;
+    }
+  }
+  &__text {
+  width: 90%;
+  margin: 0 auto;
+    & h2 {
+      @include tituloPrincipal;
+    }
+    & p {
+      @include parrafo;
+    }
+  }
+}
+
+.proyectos {
+  background-color: $color-claro;
+  & h3 {
+    @include tituloPrincipal;
+  }
+  &__articulos {
+    padding: 10px;
+    & img {
+      width: 100%;
+      height: 250px;
+      border-radius: 25px;
+    }
+    & h2 {
+      @include tituloSecundario;
+    }
+    & p {
+      @include parrafo;
+    }
+  }
+}
